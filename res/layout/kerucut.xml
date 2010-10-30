@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Menghitung  Lingkaran"
+    />
+       
+    
+<TextView 
+
+	android:text="Jari-Jari:" 
+	android:id="@+id/txtViewJariJariKerucut" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<EditText 
+    android:text="" android:id="@+id/txtJariJariKerucut" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:inputType="numberSigned|numberDecimal">
+    </EditText>
+    
+    
+        
+    <TextView 
+    
+    	android:text="Tinggi:" 
+    	android:id="@+id/txtViewTinggiKerucut" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content">
+    </TextView>
+    
+    <EditText 
+        android:text="" android:id="@+id/txtTinggiKerucut" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:inputType="numberSigned|numberDecimal">
+        </EditText>
+
+
+    <TextView 
+    
+    	android:text="Sisi Miring:" 
+    	android:id="@+id/txtViewSisiMiringKerucut" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content">
+    </TextView>
+    
+    <EditText 
+        android:text="" android:id="@+id/txtSisiMiringKerucut" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:inputType="numberSigned|numberDecimal">
+        </EditText>
+
+
+
+<Button 
+	android:text="Hitung" 
+	android:id="@+id/btnHitungKerucut" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:onClick="hitungKerucut">
+</Button>
+
+
+<TextView 
+	android:text="Volume Kerucut :" 
+	android:id="@+id/TextView03Kerucut" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" >
+</TextView>
+<EditText 
+	android:text="" 
+	android:id="@+id/txtVolumeKerucut" 
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+	 >
+</EditText>
+
+
+
+
+<TextView 
+	android:text="Luas Kerucut :" 
+	android:id="@+id/TextView07Kerucut" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" >
+</TextView>
+<EditText 
+	android:text="" 
+	android:id="@+id/txtLuasKerucut" 
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+	 >
+</EditText>
+
+
+ <Button 
+android:text="Kembali ke Menu" 
+android:id="@+id/btnBack" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content" 
+android:onClick="backtoMenu">
+</Button>
+</LinearLayout>

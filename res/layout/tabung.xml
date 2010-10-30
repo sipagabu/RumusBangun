@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+       
+<TextView 
+	android:text="Jari-Jari:" 
+	android:id="@+id/TextView01" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<EditText 
+    android:text="" android:id="@+id/txtJariJariTabung" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:inputType="numberSigned|numberDecimal">
+    </EditText>
+    
+    <TextView 
+	android:text="Tinggi:" 
+	android:id="@+id/TextView02" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<EditText 
+    android:text="" android:id="@+id/txtTinggiTabung" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:inputType="numberSigned|numberDecimal">
+    </EditText>
+
+<Button 
+	android:text="Hitung" 
+	android:id="@+id/btnHitungTabung" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:onClick="hitungTabung">
+</Button>
+
+<TextView 
+	android:text="Luas :" 
+	android:id="@+id/TextView03"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" >
+</TextView>
+<EditText 
+	android:text="" 
+	android:id="@+id/txtLuasTabung" 
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+	 >
+</EditText>
+
+<TextView 
+	android:text="Volume :" 
+	android:id="@+id/TextView04" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" >
+</TextView>
+<EditText 
+	android:text="" 
+	android:id="@+id/txtVolumeTabung" 
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+	 >
+</EditText>
+ <Button 
+android:text="Kembali ke Menu" 
+android:id="@+id/btnBack" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content" 
+android:onClick="backtoMenu">
+</Button>
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+    
+           <TextView 
+	android:text="Panjang:" 
+	android:id="@+id/TextViewLimas01" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<EditText 
+    android:text="" android:id="@+id/txtPanjangLimas" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:inputType="numberSigned|numberDecimal">
+    </EditText>
+   
+              <TextView 
+	android:text="Lebar:" 
+	android:id="@+id/TextViewLimas01" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<EditText 
+    android:text="" android:id="@+id/txtLebarLimas" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:inputType="numberSigned|numberDecimal">
+    </EditText>
+   
+    
+        <TextView 
+	android:text="Tinggi:" 
+	android:id="@+id/TextViewLimas01" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<EditText 
+    android:text="" android:id="@+id/txtTinggiLimas" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:inputType="numberSigned|numberDecimal">
+    </EditText>
+    
+      
+    <Button 
+	android:text="Hitung" 
+	android:id="@+id/btnHitungLimasSegiEmpat" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:onClick="hitungLimasSegiEmpat">
+</Button>
+    
+    <TextView 
+	android:text="Volume :" 
+	android:id="@+id/TextViewLimas04" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" >
+</TextView>
+<EditText 
+	android:text="" 
+	android:id="@+id/txtVolumeLimas" 
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+	 >
+</EditText>
+    
+    
+        <TextView 
+	android:text="Volume :" 
+	android:id="@+id/TextViewLimas05" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" >
+</TextView>
+<EditText 
+	android:text="" 
+	android:id="@+id/txtLuasLimas" 
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+	 >
+</EditText>
+ <Button 
+android:text="Kembali ke Menu" 
+android:id="@+id/btnBack" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content" 
+android:onClick="backtoMenu">
+</Button>
+</LinearLayout>
